@@ -1,0 +1,57 @@
+/*Use margin and padding to space elements visually pleasing
+Use following selectors: element, class, id
+Use document-level and inline styles sparingly*/
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font: Arial, Tahoma, sans-serif;
+}
+header div{
+    text-align: center;
+}
+section {
+    padding-top: 2.5rem;
+}
+section h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+#socmed {
+    text-align: left;
+} 
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+p.favs {
+    background-color: #e6e6e6;
+    border-color: #808080;
+    border-style: solid;
+}
+figcaption {
+    font-size: 1.5rem;
+}
+img.img-circle {
+    height: 21.42rem;
+    
+}
+img.img-thumbnail {
+    height: 25rem;
+}
+img.logo {
+    height: 20rem;
+}
+#osulogo {
+    height: 20rem;
+}
+#sigrho {
+    height: 20rem;
+}
+footer {
+    text-align: center;
+}
