@@ -3,151 +3,233 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link type="css" rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/bootstrap-social-gh-pages/bootstrap-social.css">
+<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="styles.css">
     <title>Benny Kuang's Blog</title>
 </head>
 <body>
     <header>
-        <h1>About Me</h1>
-        <nav>
-            <ul>
-            <a href="#bio">Background</a>
-            <a href="#favs">Favorites</a>
-            <a href="#social">Social Media</a>
-            </ul>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Benny Kuang's Blog</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#bio">Biography</a></li>
+                        <li><a href="#favs">Favorites</a></li>
+                        <li><a href="#social">Social Media</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Welcome!</h1>
+                <p>The random musings of Benny Kuang</p>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <article>
             <section>
                 <a name="bio"></a>
                 <h2><u>Biography</u></h2>
                 <h1>Education</h1>
-                <img src="images/osulogo2.png"><br>
-                <p>I attended Oregon State University where I earned a degree in Political Science.</p>
+                <img id="osulogo" src="images/osulogo2.png"><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
                 <h1>Extracurricular</h1>
-                <img src="images/crest.png"><br>
+                <img id="sigrho" src="images/crest.png"><br>
                 <!--Width: 280, Height: 360-->
-                <p>I am a proud member of Sigma Beta Rho Fraternity, Inc.  Sigma Beta Rho is a multicultural fraternity established upon the principles of Society, Brotherhood, and Remembrance.  As a brother of the Alpha Gamma chapter, I served as president, vice-president, new member educator, and brotherhood chair.</p>
-            
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                <a href=#>Back to top</a>
             </section>
             <section>
                 <a name="favs"></a>
-                <h2><u>Favorites</u></h2>
+                <h2><u><strong>Favorites</strong></u></h2>
                 <p>These are my favorites of different things.  The selections are pretty arbitrary with no real rhyme or reason.</p>
-                <h1>Portland Trail Blazers</h1>
-                <img src="images/blazerslogo.png">
-                <figure>
-                    <img src="images/sabonis.jpg">
-                    <figcaption>1. Arvydas Sabonis</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/damon.jpg">
-                    <figcaption>2. Damon Stoudamire</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/sheed.jpg">
-                    <figcaption>3. Rasheed Wallace</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/roy.jpg">
-                    <figcaption>4. Brandon Roy</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/pippen.jpg">
-                    <figcaption>5. Scottie Pippen</figcaption>
-                </figure>
-                <h1>Books</h1>
-                <figure>
-                    <img src="images/malcolmx.jpg">
-                    <figcaption>1. Autobiography of Malcolm X</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/fob.jpg">
-                    <figcaption>2. Fresh Off The Boat</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/eighthpromise.jpg">
-                    <figcaption>3. The Eighth Promise</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/gatsby.jpg">
-                    <figcaption>4. The Great Gatsby</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/watchmen.png">
-                    <figcaption>5. Watchmen</figcaption>
-                </figure>
-                <h1>TV Shows</h1>
-                <figure>
-                    <img src="images/got.jpg">
-                    <figcaption>1. Game of Thrones</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/bandofbrothers.jpg">
-                    <figcaption>2. Band of Brothers</figcaption>
-                </figure>
-                    <img src="images/breakingbad.jpg">
-                    <figcaption>3. Breaking Bad</figcaption>
-                <figure>
-                    <img src="images/strangerthings.jpg">
-                    <figcaption>4. Stranger Things</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/masterofnone.jpg">
-                    <figcaption>5. Master of None</figcaption>
-                </figure>
-
-                <h1>Movies</h1>
-                <figure>
-                    <img src="images/backtothefuture.jpg">
-                    <figcaption>1. Back to the Future</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/dotherightthing.jpg">
-                    <figcaption>2. Do the Right Thing</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/akira.jpg">
-                    <figcaption>3. Akira</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/childrenofmen.jpg">
-                    <figcaption>4. Children of Men</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/whenharrymetsally.jpg">
-                    <figcaption>5. When Harry Met Sally</figcaption>
-                </figure>
-                <h1>Podcasts</h1>
-                <figure>
-                    <img src="images/thestarters.jpg">
-                    <figcaption>1. The Starters</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/thelowepost.jpg">
-                    <ficaption>2. The Lowe Post</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/politicallyreactive.jpg">
-                    <figcaption>3. Politically Re-Active</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/theycallusbruce.jpg">
-                    <figcaption>4. They Call Us Bruce</figcaption>
-                </figure>
-               <figure>
-                   <img src="images/hellointernet.png">
-                    <figcaption>5. Hello Internet</figcaption>
-                </figure>
+                <div class="panel-group" id="accordion" role"tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h3 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Portland Trail Blazers
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">    
+                                <figure>
+                                    <img class="img-circle" src="images/sabonis.jpg">
+                                    <figcaption>1. Arvydas Sabonis</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-circle" src="images/damon.jpg">
+                                    <figcaption>2. Damon Stoudamire</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-circle" src="images/sheed.jpg">
+                                    <figcaption>3. Rasheed Wallace</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-circle" src="images/roy.jpg">
+                                    <figcaption>4. Brandon Roy</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-circle" src="images/pippen.jpg">
+                                    <figcaption>5. Scottie Pippen</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Books
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <figure>
+                                    <img class="img-thumbnail"  src="images/malcolmx.jpg">
+                                    <figcaption>1. Autobiography of Malcolm X</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-thumbnail" src="images/fob.jpg">
+                                    <figcaption>2. Fresh Off The Boat</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-thumbnail" src="images/eighthpromise.jpg">
+                                    <figcaption>3. The Eighth Promise</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-thumbnail" src="images/gatsby.jpg">
+                                    <figcaption>4. The Great Gatsby</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                                <figure>
+                                    <img class="img-thumbnail" src="images/watchmen.png">
+                                    <figcaption>5. Watchmen</figcaption>
+                                    <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">        
+                                TV Shows
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <figure>
+                                <img class="img-thumbnail" src="images/got.jpg">
+                                <figcaption>1. Game of Thrones</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/bandofbrothers.jpg">
+                                <figcaption>2. Band of Brothers</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/breakingbad.jpg">
+                                <figcaption>3. Breaking Bad</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/strangerthings.jpg">
+                                <figcaption>4. Stranger Things</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/masterofnone.jpg">
+                                <figcaption>5. Master of None</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Movies
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <figure>
+                                <img class="img-thumbnail" src="images/backtothefuture.jpg">
+                                <figcaption>1. Back to the Future</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/dotherightthing.jpg">
+                                <figcaption>2. Do the Right Thing</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/akira.jpg">
+                                <figcaption>3. Akira</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/childrenofmen.jpg">
+                                <figcaption>4. Children of Men</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                            <figure>
+                                <img class="img-thumbnail" src="images/whenharrymetsally.jpg">
+                                <figcaption>5. When Harry Met Sally</figcaption>
+                                <p class="favs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas fermentum dolor, sit amet tincidunt dolor semper eu. Sed sollicitudin hendrerit gravida. Donec pretium nulla eu velit mollis ultricies. Nunc leo magna, tincidunt et molestie at, efficitur ac mauris. Quisque sit amet metus sit amet eros egestas egestas in sit amet arcu. Praesent scelerisque, ligula sit amet egestas posuere, sapien magna hendrerit eros, eu consectetur eros lacus vitae arcu. Quisque aliquet gravida velit, non dictum nulla iaculis et. In ut porta nisl, rutrum volutpat risus. Integer at tortor id lacus tempus lobortis eu nec felis. Fusce ut posuere augue. Etiam ornare vulputate metus in tempor.</p>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </section>
+            <a href="#">Back to top</a>                                
             <section>
                 <a name="social"></a>
-                <h2><u>Social Media</u></h2>
-                <h1><a href="www.linkedin.com/in/bkuang">LinkedIn</a></h1>
-                <h1><a href="www.twitter.com/benny-kuang">Twitter</a></h1>
-                <h1><a href="https://www.instagram.com/misterkuang/">Instagram</a></h1>
-                <h1><a href="https://github.com/benny-kuang">GitHub</a></h1>
+                <h2 id="socmed"><u>Social Media</u></h2>
+                <a class="btn btn-block btn-social-icon btn-linkedin btn-lg" href="https://www.linkedin.com/in/bkuang/">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a class="btn btn-block btn-social-icon btn-twitter btn-lg" href="www.twitter.com/bennykuang">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                 <a class="btn btn-block btn-social-icon btn-instagram btn-lg" href="www.instagram.com/misterkuang">
+                    <span class="fa fa-instagram"></span> 
+                </a>
+                 <a class="btn btn-block btn-social-icon btn-github btn-lg" href="www.github.com/benny-kuang">
+                    <span class="fa fa-github"></span>
+                </a>
+                <a href=#>Back to top</a>
             </section>
         </article>
     </main>
